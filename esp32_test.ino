@@ -1,4 +1,4 @@
-int LED_BUILTIN = 2;
+const int LED_BUILTIN = 2;
 int count = 0;
 TaskHandle_t lightTask;
 TaskHandle_t mathTask;
